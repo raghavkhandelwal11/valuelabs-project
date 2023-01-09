@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(224, 240, 254);
+}
+
+#main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+
+#first-block {
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(226, 204, 204);
+    border-radius: 10px;
+}
+
+
+.first-block-heading {
+    padding-left: 15px;
+    color:rgb(234, 68, 112) ;
+}
+
+
+.filters {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.filters > div {
+    margin: 20px 20px;
+}
+
+.fist-block-inp {
+    width: 120px;
+    padding: 8px 20px;
+
+}
+
+.inp1 {
+    background-color: rgb(123, 92, 156);
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.inp2 {
+    background-color: rgb(133, 122, 145);
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.inp3 {
+    background-color: rgb(235, 152, 122);
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.inp4 {
+    background-color: rgb(135, 136, 219);
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+
+#second-block {
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    min-width: 600px;
+}
+
+table {
+    position: relative;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+
+}
+
+th{
+    padding-bottom: 50px;
+}
+
+td {
+    padding: 10px 0;
+    background-color: white;
+}
+
+
+
+.blue-strip {
+    position: absolute;
+    right: 1%;
+    width: 100%;
+    top: 460px;
+    height: 25px;
+    background-color: rgb(224, 240, 254);
+}
+
+#btn {
+    margin: 2%;
+    font-size: 15px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+
+}
+
+#btn:hover {
+    background-color: green;
+}
+
+
+
+thead button {
+    border: none;
+    background-color: inherit;
+}
+
+
